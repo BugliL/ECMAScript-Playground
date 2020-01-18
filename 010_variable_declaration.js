@@ -8,9 +8,13 @@
 
 
   The 3 kinds of declaration differs by scope and mutability.
-  Const declare a function scope constant (value can't be reassigned but can mute)
+  Const declare a function scope constant (value can't be reassigned but can
+  mute)
   Let declare a block scope variable.
   Var declare a function scope variable.
+
+  Var declaration, wherever it is, start it's scope from the beginning of the
+  function block, or the file if outside all. This behaviour is called hoisting.
 */
 
 'use strict'; // Can't use undeclared variables

@@ -8,8 +8,7 @@
 
 
   The 3 kinds of declaration differs by scope and mutability.
-  Const declare a function scope constant (value can't be reassigned but can
-  mute)
+  Const declare a function scope constant (constant binding but not costant value)
   Let declare a block scope variable.
   Var declare a function scope variable.
 

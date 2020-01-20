@@ -8,9 +8,12 @@
 
 
   The 3 kinds of declaration differs by scope and mutability.
-  Const declare a function scope constant (constant binding but not costant value)
+  Const declare a block scope constant.
   Let declare a block scope variable.
   Var declare a function scope variable.
+
+  Constant declaration are costant in binding but not costant in value. The
+  value can change but the reference will always be the same.
 
   Var declaration, wherever it is, start it's scope from the beginning of the
   function block, or the file if outside all. This behaviour is called hoisting.

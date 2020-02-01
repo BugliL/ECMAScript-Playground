@@ -18,6 +18,11 @@ console.log(foo(2, 3));        // 252
 console.log(foo(2, 3, 4));     // 24
 
 /*
+    Arrow functions
+*/
+const multiply = (x, y) => { return x * y };
+
+/*
     Rest parameters
     A rest parameter is indicated with 3 dots.
     It is an Array containing all parameters passed from that point until the

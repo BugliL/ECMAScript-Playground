@@ -1,3 +1,3 @@
-# ECMAScript 6 Playground
+# ECMAScript Playground
 
-Repository to learn and play with ES6
+Repository to learn and play with ES6 and beyond
